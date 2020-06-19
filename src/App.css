@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+html, body, #root {
+    font: 0.9rem sans-serif;
+    background: #0a1f44;
+    color: #1e2432;
+    height: 100%;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://u01.appmifile.com/images/2016/06/19/d2f383a2-2e76-44b8-acab-283771f7be80.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search {
+    outline: none;
+    padding: 20px 7%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 5%;
+    background: rgba(250, 250, 250, 1);
 }
 
-.App-link {
-  color: #61dafb;
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 8%;
+    border-radius: 20px;
+    background: rgba(250, 250, 250, 0.85);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+    width: 300px;
+    height:350px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city2 {
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 20px 8%;
+    border-radius: 20px;
+    background: rgba(250, 250, 250, 0.85);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+    width: 200px;
+    height:50px;
+    font-weight: bold;
+    /* align-items: center; */
+}
+
+.p1{
+    padding-top: 50px;
+}
+
+p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 6px;
+    color: #1e2432;
+    text-align: center;
+}
+
+.city-name1 {
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.flip {
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.05em; */
+    font-size: 1rem;
+    text-align: right;
+    margin-bottom: 3px ;
+}
+
+.city sup {
+    font-size: 0.5em;
+}
+
+.city-name {
+    font-size: 2em;
+}
+
+/* .city-name1 {
+    font-size: em;
+} */
+
+.city-name sup {
+    padding: 0.2em 0.6em;
+    margin-left: 0.2em;
+    border-radius: 30px;
+    color: #fff;
+    background: #ff8c00;
+}
+
+.city-icon {
+    margin-top: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .search {
+        padding: 20px 15%;
+    }
+
+    .city {
+        padding: 40px 20%;
+    }
 }

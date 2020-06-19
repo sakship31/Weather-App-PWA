@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+
+/src/api/fetchWeather.js
+
 # testing
 /coverage
 
