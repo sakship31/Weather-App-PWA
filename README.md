@@ -31,8 +31,10 @@ Weather app(PWA) has following features-
 
 ----------------------------------------------------------------------------------------
 ### Installed Application ###
+Would show offline page in app when no internet connection
 ![](https://github.com/sakship31/Weather-App-PWA/blob/master/screenshots/working.gif)
 ### Offline Page ###
+Shown when checked offline on browser.
 ![](https://github.com/sakship31/Weather-App-PWA/blob/master/screenshots/4.PNG)
 
 ---------------------------------------------------------------------------------------
