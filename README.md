@@ -16,7 +16,7 @@ This is a simple Progressive Web App(PWA) Weather Application made using reactJS
 <p>
 Check out the web app-
 <a href="https://happy-einstein-b9bed8.netlify.app/">
-Weather-app-pwa
+https://happy-einstein-b9bed8.netlify.app/
 </a>
 </p>
 
